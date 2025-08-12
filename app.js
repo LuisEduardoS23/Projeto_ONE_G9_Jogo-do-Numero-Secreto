@@ -32,7 +32,7 @@ function chutar(){
 
 
 function gerarNumeroAleatorio(){
-    let num = parseInt((Math.random() * 10));
+    let num = parseInt((Math.random() * 10 + 1));
     return num;
 }
 
